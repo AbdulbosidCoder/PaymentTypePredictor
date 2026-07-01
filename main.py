@@ -8,6 +8,10 @@ import re
 app = FastAPI()
 pipeline = joblib.load('kategoriya_model_full.pkl')
 
+
+
+
+
 def clean_text(text):
     text = str(text).lower()
     text = re.sub(r'[^а-яa-zё0-9\s]', ' ', text)
