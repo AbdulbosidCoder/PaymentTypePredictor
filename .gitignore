@@ -1,0 +1,27 @@
+# Default ignores
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.*
+venv/
+
+# Dependency directories
+node_modules/
+pnp.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
